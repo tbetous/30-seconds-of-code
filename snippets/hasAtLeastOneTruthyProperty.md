@@ -31,5 +31,6 @@ const formFalsy = {
     field4: null
 }
 
-hasAtLeastOneTruthyProperty(form); // 'true'
+hasAtLeastOneTruthyProperty(formTruthy); // true
+hasAtLeastOneTruthyProperty(formFalsy); // false
 ```
