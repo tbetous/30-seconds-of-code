@@ -15,20 +15,20 @@ const hasAtLeastOneTruthyProperty = object =>
 ```
 
 ```js
-const formTruthy = {
-    field1: null,
-    field2: null,
-    field3: "This is a demo",
-    field4: null
+const objectTruthy = {
+    check1: null,
+    check2: null,
+    check3: "This is a demo",
+    check4: null
 }
 
-const formFalsy = {
-    field1: null,
-    field2: null,
-    field3: "This is a demo",
-    field4: null
+const objectFalsy = {
+    check1: null,
+    check2: false,
+    check3: "",
+    check4: null
 }
 
-hasAtLeastOneTruthyProperty(formTruthy); // true
-hasAtLeastOneTruthyProperty(formFalsy); // false
+hasAtLeastOneTruthyProperty(objectTruthy); // true
+hasAtLeastOneTruthyProperty(objectFalsy); // false
 ```
