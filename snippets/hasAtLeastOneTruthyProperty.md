@@ -5,7 +5,7 @@ tags: object,beginner
 
 Check if an object has at least one property that is not falsy.
 
-- Use `Object.keys` and `Array.some` to iterate on all properties of an object in order to find if at least one property is truthy.
+- Use `Object.keys` and `Array.some` to iterate on all object properties in order to find if at least one property is truthy.
 
 ```js
 const hasAtLeastOneTruthyProperty = object => 
